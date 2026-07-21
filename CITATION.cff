@@ -1,0 +1,80 @@
+# CITATION.cff - Monte Carlo Cost Risk Simulation for Healthcare PPP Projects
+
+cff-version: 1.2.0
+message: "If you use this code in your research, please cite it using the following metadata."
+
+# Code Information
+title: "Monte Carlo Cost Risk Simulation for Healthcare PPP Projects – Adana City Hospital Case"
+version: 1.0.0
+date-released: 2026-07-21
+doi: "10.5281/zenodo.XXXXXXX"
+url: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
+repository-code: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
+license: "MIT"
+
+# Authors Information
+authors:
+  - family-names: "Braknia"
+    given-names: "Tahar"
+    orcid: "https://orcid.org/0000-0001-7261-7657"
+    affiliation: "1 LDNA laboratory, University of May 8, Guelma, Algeria"
+    email: "tahar1208@gmail.com"
+
+# Keywords
+keywords:
+  - "Monte Carlo Simulation"
+  - "Lognormal Distribution"
+  - "Cost Risk Assessment"
+  - "Healthcare PPP"
+  - "Public-Private Partnership"
+  - "Adana City Hospital"
+  - "Turkey"
+  - "Python"
+  - "Risk Analysis"
+  - "Construction Management"
+
+# Abstract
+abstract: >
+  This repository contains the complete Python code for probabilistic 
+  cost risk assessment of the Adana City Hospital PPP project in Turkey 
+  using the Chang & Ko (2017) lognormal modeling methodology. 
+  
+  The code performs correlated Monte Carlo simulation with 10,000 iterations, 
+  computing Value at Risk (VaR), Conditional VaR (CVaR), probability of 
+  cost overrun, sensitivity analysis, and scenario analysis. 
+  
+  The implementation is designed for reproducibility and transparency in 
+  healthcare infrastructure risk research. The notebook is compatible 
+  with Google Colab and local Jupyter environments.
+
+# Preferred Citation for the Core Methodology
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Chang"
+      given-names: "Chen-Yu"
+    - family-names: "Ko"
+      given-names: "Jia-Wen"
+  title: "New approach to estimating the standard deviations of lognormal cost variables in the Monte Carlo analysis of construction risks"
+  journal: "Journal of Construction Engineering and Management"
+  volume: 143
+  issue: 7
+  pages: "04017039"
+  year: 2017
+  doi: "10.1061/(ASCE)CO.1943-7862.0001302"
+
+# Suggested Citation for the Code Itself
+# This section provides a ready-to-use citation format for the code repository
+# Users can copy this citation directly when referencing the code
+references:
+  - type: software
+    title: "Monte Carlo Cost Risk Simulation for Healthcare PPP Projects – Adana City Hospital Case"
+    authors:
+      - family-names: "Braknia"
+        given-names: "Tahar"
+    year: 2026
+    version: 1.0.0
+    doi: "10.5281/zenodo.XXXXXXX"
+    url: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
+    repository: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
+    license: "MIT"
