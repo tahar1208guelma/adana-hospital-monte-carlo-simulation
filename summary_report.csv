@@ -1,0 +1,8 @@
+Metric,Value
+Mean Total Cost,"$538,264,180.47"
+Median Total Cost,"$535,201,139.85"
+Standard Deviation,"$48,944,760.75"
+90th Percentile (VaR),"$602,086,219.30"
+95th Percentile,"$623,864,305.76"
+Probability of Overrun > $1.3B,0.00%
+10th Percentile,"$477,391,474.46"
