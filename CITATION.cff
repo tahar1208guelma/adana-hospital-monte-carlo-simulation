@@ -7,7 +7,7 @@ message: "If you use this code in your research, please cite it using the follow
 title: "Monte Carlo Cost Risk Simulation for Healthcare PPP Projects – Adana City Hospital Case"
 version: 1.0.0
 date-released: 2026-07-21
-doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.21476661"
 url: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
 repository-code: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
 license: "MIT"
@@ -74,7 +74,7 @@ references:
         given-names: "Tahar"
     year: 2026
     version: 1.0.0
-    doi: "10.5281/zenodo.XXXXXXX"
+    doi: "10.5281/zenodo.21476661"
     url: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
     repository: "https://github.com/[YourUsername]/adana-hospital-monte-carlo"
     license: "MIT"
