@@ -1,13 +1,27 @@
-# Monte Carlo Cost Risk Simulation – Adana City Hospital PPP
 
-## Description
-Python implementation of the Chang & Ko (2017) methodology for estimating lognormal cost variables in healthcare infrastructure PPP projects. This code performs correlated Monte Carlo simulation to quantify cost uncertainties and compute risk metrics for the Adana City Hospital PPP project in Turkey.
+## Version Information
 
-## Files
-- `The_Adana_City_Hospital_Case (1).ipynb`: Full Jupyter Notebook
-- `requirements.txt`: Required Python libraries
-- `LICENSE`: MIT License
-- `README.md`: Documentation
-- `CITATION.cff`: Citation metadata
+| **Version** | **Status** | **Key Changes** |
+|-------------|------------|-----------------|
+| v2.0 | **Current (Recommended)** | Corrected risk contribution analysis using standardized regression; Enhanced Figure 4 (CDF) with improved visibility; CAPEX/OPEX distinction; Updated probability of overrun with meaningful thresholds |
+| v1.0 | Legacy | Original simulation with basic variance-based risk contributions |
 
 ## Requirements
+
+| **Package** | **Version** |
+|-------------|-------------|
+| Python | 3.10+ |
+| NumPy | 2.0.0+ |
+| Pandas | 2.2.0+ |
+| Matplotlib | 3.8.0+ |
+| Seaborn | 0.13.0+ |
+| SciPy | 1.13.0+ |
+| Plotly | 5.18.0+ (for Sankey diagram) |
+| scikit-learn | 1.4.0+ (for regression analysis) |
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/[YourUsername]/adana-hospital-monte-carlo.git
+   cd adana-hospital-monte-carlo
